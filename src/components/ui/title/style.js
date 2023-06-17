@@ -1,26 +1,35 @@
 import styled from 'styled-components';
 
 export const TitleStyled = styled.h1`
-  .title {
-    margin: 0;
-    padding: 0;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 41px;
-  }
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
 
-  .title_small {
-    line-height: 31px;
-    font-size: 24px;
-  }
+  font-size: ${(props) => {
+    let fontSize = '36px';
+    if (props.$size == TitleSize.BIG) {
+      fontSize = '44px';
+    }
+    if (props.$size === TitleSize.SMALL) {
+      fontSize = '24px';
+    }
+    if (props.$size === TitleSize.EXTRA_SMALL) {
+      fontSize = '18px';
+    }
+    return fontSize;
+  }};
 
-  .title_big {
-    line-height: 50px;
-    font-size: 44px;
-  }
-
-  .title_extra_small {
-    font-size: 18px;
-    line-height: 27px;
-  }
+  line-height: ${(props) => {
+    let lineHeight = '41px';
+    if (props.$size === TitleSize.BIG) {
+      lineHeight = '50px';
+    }
+    if (props.$size === TitleSize.SMALL) {
+      lineHeight = '31px';
+    }
+    if (props.$size === TitleSize.EXTRA_SMALL) {
+      lineHeight = '27px';
+    }
+    return lineHeight;
+  }};
 `;
