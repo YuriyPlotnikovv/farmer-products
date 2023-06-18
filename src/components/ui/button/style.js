@@ -11,8 +11,8 @@ export const ButtonStyled = styled.button`
   line-height: 58px;
   text-align: center;
   text-decoration: none;
-  color: #ffffff;
-  background-color: #fc9b27;
+  color: ${(props) => props.theme.ColorMain};
+  background-color: ${(props) => props.theme.ColorButton};
   border: none;
   background-image: none;
   box-shadow: none;
@@ -23,7 +23,7 @@ export const ButtonStyled = styled.button`
 
   &:hover,
   &:active {
-    background-color: #fc7427;
+    background-color: ${(props) => props.theme.ColorButtonActive};
     box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.14);
   }
 

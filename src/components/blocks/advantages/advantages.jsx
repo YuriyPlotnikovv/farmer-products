@@ -1,7 +1,11 @@
 import AdvantageCard from '../../ui/advantage-card/advantage-card';
 import Button from '../../ui/button/button';
 import Title, { TitleLevel } from '../../ui/title/title';
-import { AdvantagesStyled } from './style';
+import {
+  AdvantagesStyled,
+  AdvantagesListStyled,
+  AdvantagesItemStyled,
+} from './style';
 
 export default function Advantages({ advantages }) {
   return (
@@ -11,13 +15,13 @@ export default function Advantages({ advantages }) {
           <Title level={TitleLevel.H2} className='advantages__title'>
             Почему фермерские продукты лучше?
           </Title>
-          <ul className='advantages__list'>
+          <AdvantagesListStyled>
             {advantages.map((advantage) => (
-              <li className='advantages__item' key={advantage.id}>
-                <AdvantageCard advantage={advantage} />
-              </li>
+              <AdvantagesItemStyled key={advantage.id}>
+                <AdvantageCard {...advantage} />
+              </AdvantagesItemStyled>
             ))}
-          </ul>
+          </AdvantagesListStyled>
         </>
       ) : null}
       <Button className='advantages__button button'>Купить</Button>

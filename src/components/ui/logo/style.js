@@ -6,12 +6,12 @@ export const LogoStyled = styled.a`
   height: 44px;
   align-items: center;
   text-decoration: none;
-  color: #333333;
+  color: ${(props) => props.theme.colorText};
 
   &:hover,
   &:active,
   &:visited {
     text-decoration: none;
-    color: #333333;
+    color: ${(props) => props.theme.colorText};
   }
 `;

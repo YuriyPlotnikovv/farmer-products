@@ -18,10 +18,7 @@ export const TitleLevel = {
 
 export default function Title({ children, size, level }) {
   return (
-    <TitleStyled
-      as={`h${level}`}
-      className={`title${size ? ` title_${size}` : ''}`}
-    >
+    <TitleStyled as={`h${level}`} $size={size}>
       {children}
     </TitleStyled>
   );

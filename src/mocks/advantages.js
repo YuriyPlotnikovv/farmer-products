@@ -1,7 +1,12 @@
+import advantageFirst from '../assets/advantage-1.svg';
+import advantageSecond from '../assets/advantage-2.svg';
+import advantageThird from '../assets/advantage-3.svg';
+import advantageFourth from '../assets/advantage-4.svg';
+
 const advantagesList = [
   {
     id: 0,
-    image: '',
+    image: advantageFirst,
     marker: 'Фермерские продукты',
     title: 'Еда намного вкуснее',
     isNegative: false,
@@ -9,7 +14,7 @@ const advantagesList = [
   },
   {
     id: 1,
-    image: '',
+    image: advantageSecond,
     marker: 'Магазинные продукты',
     title: 'Просроченные продукты',
     isNegative: true,
@@ -17,7 +22,7 @@ const advantagesList = [
   },
   {
     id: 2,
-    image: '',
+    image: advantageThird,
     marker: 'Фермерские продукты',
     title: 'Натуральные продукты',
     isNegative: false,
@@ -25,7 +30,7 @@ const advantagesList = [
   },
   {
     id: 3,
-    image: '',
+    image: advantageFourth,
     marker: 'Магазинные продукты',
     title: 'Некачественное мясо',
     isNegative: true,
