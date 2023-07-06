@@ -1,4 +1,4 @@
-import AdvantageCard from '../../ui/advantage-card/advantage-card';
+import AdvantageCard from '../advantage-card/advantage-card';
 import Button from '../../ui/button/button';
 import Title, { TitleLevel } from '../../ui/title/title';
 import {

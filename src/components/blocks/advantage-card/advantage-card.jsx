@@ -1,4 +1,4 @@
-import Title, { TitleLevel, TitleSize } from '../title/title';
+import Title, { TitleLevel, TitleSize } from '../../ui/title/title';
 import {
   ArticleStyled,
   CardHeaderStyled,

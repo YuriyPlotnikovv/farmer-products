@@ -5,7 +5,7 @@ export const FooterStyled = styled.footer`
   padding-left: ${(props) => props.theme.paddingLeft};
   padding-right: ${(props) => props.theme.paddingRight};
   box-sizing: border-box;
-  position: absolute;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;
