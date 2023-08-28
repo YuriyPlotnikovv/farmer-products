@@ -30,4 +30,11 @@ export const ButtonStyled = styled.button`
   &:active {
     box-shadow: none;
   }
+
+  &:disabled {
+    opacity: 0.7;
+    box-shadow: none;
+    background-color: ${(props) => props.theme.ColorButton};
+    cursor: default;
+  }
 `;

@@ -1,10 +1,13 @@
-import { LabelStyled, InputProductStyled } from './style';
+import { Label, LabelStyled } from './style';
+import HiddenInput from '../hidden-input/hidden-input';
 
-export default function Checkbox({ title }) {
+export default function Checkbox({ onClick, isChecked, name, value, text, onChange, ...props }) {
   return (
-    <LabelStyled>
-      <InputProductStyled type='checkbox' />
-      {title}
-    </LabelStyled>
-  );
-}
+    <Label>
+      <HiddenInput value={text} checked={isChecked} name={name} onChange={() => onChange(value)} {...props} type='checkbox' />
+      <LabelStyled onClick={() => onClick(value)} $isChecked={isChecked}>
+        {text}
+      </LabelStyled>
+    </Label>
+  )
+};

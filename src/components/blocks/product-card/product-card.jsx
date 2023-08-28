@@ -12,18 +12,22 @@ import {
 export default function ProductCard({ product, title }) {
   const tabs = [
     {
+      id: 0,
       title: 'Описание',
       content: <Description product={product} />,
     },
     {
+      id: 1,
       title: 'Характеристики',
       content: <Characteristics characteristics={product.characteristics} />,
     },
     {
+      id: 2,
       title: 'Свойства',
       content: <Properties properties={product.properties} />,
     },
   ];
+
   return (
     <ArticleStyled>
       <ProductImageStyled src={product.image} />

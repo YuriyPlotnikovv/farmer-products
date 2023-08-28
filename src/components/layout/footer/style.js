@@ -5,11 +5,10 @@ export const FooterStyled = styled.footer`
   padding-left: ${(props) => props.theme.paddingLeft};
   padding-right: ${(props) => props.theme.paddingRight};
   box-sizing: border-box;
-  position: sticky;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  display: flex;
   width: ${(props) => props.theme.width};
   margin: 0 auto;
   padding-top: 0;
@@ -19,6 +18,7 @@ export const FooterStyled = styled.footer`
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 0;
 `;
 
 export const FooterCopyrightStyled = styled.span`

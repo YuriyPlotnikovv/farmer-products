@@ -1,5 +1,5 @@
 import { ButtonStyled } from './style';
 
-export default function Button({ children }) {
-  return <ButtonStyled>{children}</ButtonStyled>;
+export default function Button({ children, disabled }) {
+  return <ButtonStyled disabled={disabled} type='button'>{children}</ButtonStyled>;
 }

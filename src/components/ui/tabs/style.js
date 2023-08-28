@@ -12,6 +12,7 @@ export const TabButton = styled.button`
   padding: 8px 12px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: ${(props) => (props.active ? '#88aa4d' : '#f6f6f6')};
+  cursor: pointer;
 `;
 
 export const TabText = styled(Title)`

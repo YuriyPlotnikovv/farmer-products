@@ -4,7 +4,7 @@ export default function Properties({ properties }) {
   return (
     <DataList>
       {properties.map((property) => (
-        <DataWrapper>
+        <DataWrapper key={property.title}>
           <DataTitle>{property.title}</DataTitle>&nbsp;
           <DataDescription>{property.description}</DataDescription>
         </DataWrapper>
