@@ -1,6 +1,6 @@
-import AdvantageCard from '../advantage-card/advantage-card';
-import Button from '../../ui/button/button';
-import Title, { TitleLevel } from '../../ui/title/title';
+import AdvantageCard from '/src/components/blocks/advantage-card/advantage-card';
+import Button from '/src/components/ui/button/button';
+import Title, { TitleLevel } from '/src/components/ui/title/title';
 import {
   AdvantagesStyled,
   AdvantagesListStyled,
@@ -24,7 +24,7 @@ export default function Advantages({ advantages }) {
           </AdvantagesListStyled>
         </>
       ) : null}
-      <Button className='advantages__button button'>Купить</Button>
+      <Button link='catalog' className='advantages__button button'>Купить</Button>
     </AdvantagesStyled>
   );
 }

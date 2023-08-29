@@ -1,5 +1,5 @@
-import Title, { TitleLevel, TitleSize } from '../../ui/title/title';
-import farmer from '../../../assets/farmer.svg';
+import Title, { TitleLevel, TitleSize } from '/src/components/ui/title/title';
+import farmer from '/src/assets/farmer.svg';
 import { AboutImageStyled, AboutStyled, AboutTextStyled } from './style';
 
 export default function About() {

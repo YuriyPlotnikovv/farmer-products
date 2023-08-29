@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const LogoStyled = styled.a`
+export const LogoStyled = styled(Link)`
   display: flex;
   margin-left: -4px;
   height: 44px;

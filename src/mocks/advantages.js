@@ -1,7 +1,7 @@
-import advantageFirst from '../assets/advantage-1.svg';
-import advantageSecond from '../assets/advantage-2.svg';
-import advantageThird from '../assets/advantage-3.svg';
-import advantageFourth from '../assets/advantage-4.svg';
+import advantageFirst from '/src/assets/advantage-1.svg';
+import advantageSecond from '/src/assets/advantage-2.svg';
+import advantageThird from '/src/assets/advantage-3.svg';
+import advantageFourth from '/src/assets/advantage-4.svg';
 
 const advantagesList = [
   {

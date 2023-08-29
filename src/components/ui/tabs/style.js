@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Title from '../title/title';
+import Title from '/src/components/ui/title/title';
 
 export const TabList = styled.div`
   display: flex;

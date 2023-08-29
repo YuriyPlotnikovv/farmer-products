@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import { defaultTheme } from './theme/default';
 
-import App from './components/app/App';
+import App from '/src/components/app/App';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);

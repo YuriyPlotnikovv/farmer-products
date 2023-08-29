@@ -1,8 +1,8 @@
-import Characteristics from '../../blocks/characteristics/characteristics';
-import Description from '../description/description';
-import Properties from '../properties/properties';
-import Tabs from '../../ui/tabs/tabs';
-import Title, { TitleLevel, TitleSize } from '../../ui/title/title';
+import Characteristics from '/src/components/blocks/characteristics/characteristics';
+import Description from '/src/components/blocks/description/description';
+import Properties from '/src/components/blocks/properties/properties';
+import Tabs from '/src/components/ui/tabs/tabs';
+import Title, { TitleLevel, TitleSize } from '/src/components/ui/title/title';
 import {
   ArticleStyled,
   ProductDescriptionStyled,

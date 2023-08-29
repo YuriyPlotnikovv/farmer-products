@@ -1,5 +1,5 @@
 import { Label, LabelStyled } from './style';
-import HiddenInput from '../hidden-input/hidden-input';
+import HiddenInput from '/src/components/blocks/hidden-input/hidden-input';
 
 export default function Checkbox({ onClick, isChecked, name, value, text, onChange, ...props }) {
   return (

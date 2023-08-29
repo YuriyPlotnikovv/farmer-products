@@ -1,4 +1,4 @@
-import Checkbox from '../checkbox/checkbox';
+import Checkbox from '/src/components/blocks/checkbox/checkbox';
 import { ProductsList, ProductsElement } from './style';
 
 export default function CheckboxList({ selectValues, options, name, onChange, onClickLabel = () => {} }) {

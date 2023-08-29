@@ -1,10 +1,10 @@
-import logo from '../../../assets/logo.svg';
+import logo from '/src/assets/logo.svg';
 import { LogoStyled } from './style';
 
 export default function Logo() {
   return (
     <>
-      <LogoStyled href='/'>
+      <LogoStyled to='/'>
         <img src={logo} alt='Фермерские продукты' />
       </LogoStyled>
     </>

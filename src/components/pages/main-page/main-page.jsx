@@ -1,8 +1,9 @@
-import About from "../../blocks/about/about";
-import Advantages from "../../blocks/advantages/advantages";
+import advantages from '/src/mocks/advantages';
+import About from "/src/components/blocks/about/about";
+import Advantages from "/src/components/blocks/advantages/advantages";
 import { MainStyled } from './style';
 
-export default function MainPage({ advantages }) {
+export default function MainPage() {
   return (
     <MainStyled>
       <About />

@@ -1,8 +1,8 @@
-import CardImageFirst from '../assets/card-image-1.png';
-import CardImageSecond from '../assets/card-image-2.png';
-import CardImageThird from '../assets/card-image-3.webp';
-import CardImageFourth from '../assets/card-image-4.webp';
-import CardImageFifth from '../assets/card-image-5.webp';
+import CardImageFirst from '/src/assets/card-image-1.png';
+import CardImageSecond from '/src/assets/card-image-2.png';
+import CardImageThird from '/src/assets/card-image-3.webp';
+import CardImageFourth from '/src/assets/card-image-4.webp';
+import CardImageFifth from '/src/assets/card-image-5.webp';
 
 const productsList = [
   {
