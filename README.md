@@ -8,4 +8,4 @@
 ---
 Деплой проекта: https://peppy-jelly-63aca8.netlify.app
 ---
-Четвертый учебный проект от HTML Academy
+Четвертый учебный проект в рамках курса Frontend-разработчик от HTML Academy
