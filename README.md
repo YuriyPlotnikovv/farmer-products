@@ -6,4 +6,6 @@
 * React Hooks, React Router
 * сборка через CRA
 ---
+Деплой проекта: https://peppy-jelly-63aca8.netlify.app
+---
 Четвертый учебный проект от HTML Academy
