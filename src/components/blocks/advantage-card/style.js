@@ -5,6 +5,7 @@ export const ArticleStyled = styled.article`
   height: 197px;
   padding: 20px;
   box-sizing: border-box;
+
   background-color: ${(props) =>
     props.isNegative
       ? props.theme.ColorCardNegative
@@ -19,6 +20,7 @@ export const CardHeaderStyled = styled.header`
 
 export const CardImageStyled = styled.img`
   float: left;
+
   width: 56px;
   height: 56px;
   margin-right: 20px;
@@ -28,9 +30,11 @@ export const CardMarkerStyled = styled.span`
   min-height: 25px;
   margin-bottom: 4px;
   padding: 0 10px;
+
   font-size: 14px;
   line-height: 21px;
   color: ${(props) => props.theme.ColorMain};
+
   background-color: ${(props) =>
     props.isNegative
       ? props.theme.ColorMarkerNegative
@@ -38,7 +42,7 @@ export const CardMarkerStyled = styled.span`
 `;
 
 export const CardTextStyled = styled.p`
-  padding: 0;
   margin: 0;
+  padding: 0;
   text-align: left;
 `;

@@ -6,11 +6,16 @@ export const LabelStyled = styled.label`
 
 export const InputProductStyled = styled.input`
   position: absolute;
-  width: 0;
-  height: 0;
-  margin: 0;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
   padding: 0;
+  white-space: nowrap;
+
   border: 0;
+
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 `;

@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const DataList = styled.dl`
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 `;
 
 export const DataWrapper = styled.div`
@@ -12,10 +12,11 @@ export const DataWrapper = styled.div`
 `;
 
 export const DataTitle = styled.dt`
+  flex-shrink: 0;
   margin: 0;
   padding: 0;
+
   font-weight: 700;
-  flex-shrink: 0;
 `;
 
 export const DataDescription = styled.dd`

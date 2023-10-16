@@ -4,7 +4,6 @@ import { TitleSize } from './title';
 export const TitleStyled = styled.h1`
   margin: 0;
   padding: 0;
-  font-weight: 700;
 
   font-size: ${(props) => {
     let fontSize = '36px';
@@ -33,4 +32,6 @@ export const TitleStyled = styled.h1`
     }
     return lineHeight;
   }};
+
+  font-weight: 700;
 `;

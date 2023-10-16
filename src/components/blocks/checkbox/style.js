@@ -8,28 +8,34 @@ export const Label = styled.label`
 
 export const LabelStyled = styled.span`
   position: relative;
+
   display: flex;
-  height: 56px;
-  font-size: 18px;
-  text-align: left;
   align-items: center;
+  text-align: left;
+  height: 56px;
+
+  font-size: 18px;
+
   cursor: pointer;
 
   &::after {
     content: '';
-    right: 0;
-    display: block;
+
     position: absolute;
-    height: 22px;
+    right: 0;
+
+    display: block;
     width: 22px;
+    height: 22px;
+
     ${(props) =>
       props.$isChecked
         ? css`
             background-color: #fc9b27;
-            border: 1px solid rgba(0, 0, 0, 0.1);
             background-image: url(${checkboxSelect});
             background-repeat: no-repeat;
             background-position: center center;
+            border: 1px solid rgba(0, 0, 0, 0.1);
           `
         : css`
             background-color: ${props.theme.backgroundColorGray};

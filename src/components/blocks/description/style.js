@@ -6,9 +6,11 @@ export const TextStyled = styled.p`
 `;
 
 export const PriceStyled = styled.p`
-  background-color: #d8ecfe;
   display: block;
   align-self: start;
   margin: 0;
+
   font-weight: 700;
+
+  background-color: #d8ecfe;
 `;

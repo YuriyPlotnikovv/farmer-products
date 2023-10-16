@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -12,7 +12,9 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     position: relative;
+
     min-height: ${(props) => props.theme.height};
+    
     font-family: ${(props) => props.theme.fontFamily};
     font-size: ${(props) => props.theme.fontSize};
     line-height: ${(props) => props.theme.lineHeight};
