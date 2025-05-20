@@ -9,6 +9,16 @@
   "deploy": "https://farmer-products-training.netlify.app/",
   "features": [
     {
+      "name-ru": "Дата разработки",
+      "name-en": "Development date",
+      "description-ru": [
+        "Август 2023"
+      ],
+      "description-en": [
+        "August 2023"
+      ]
+    },
+    {
       "name-ru": "Страницы",
       "name-en": "Pages",
       "description-ru": [
@@ -47,6 +57,23 @@
         "Full order processing with server submission",
         "Adaptability to different devices"
       ]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "React",
+      "icon": "icon-react",
+      "link": "https://react.dev/"
+    },
+    {
+      "name": "CSS",
+      "icon": "icon-css",
+      "link": "https://www.w3.org/Style/CSS/"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "icon-js",
+      "link": "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
     }
   ]
 }
