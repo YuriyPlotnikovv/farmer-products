@@ -1,79 +1,57 @@
 {
-  "id": 3,
-  "title-ru": "Farmer Products",
-  "title-en": "Farmer Products",
-  "textFirst-ru": "Простой проект на ReactJS",
-  "textFirst-en": "Simple project on ReactJS",
-  "textSecond-ru": "Четвертый учебный проект, разработан в рамках курса JavaScript-разработчик от HTML Academy. Проект на изучение возможностей и синтаксиса библиотеки ReactJS.",
-  "textSecond-en": "The fourth training project was developed as part of the JavaScript Developer course from the HTML Academy. A project to explore the capabilities and syntax of the ReactJS.",
-  "deploy": "https://farmer-products-training.netlify.app/",
-  "features": [
-    {
-      "name-ru": "Дата разработки",
-      "name-en": "Development date",
-      "description-ru": [
-        "Август 2023"
-      ],
-      "description-en": [
-        "August 2023"
-      ]
-    },
-    {
-      "name-ru": "Страницы",
-      "name-en": "Pages",
-      "description-ru": [
-        "Главная",
-        "Каталог"
-      ],
-      "description-en": [
-        "Main",
-        "Catalog"
-      ]
-    },
-    {
-      "name-ru": "Функциональность",
-      "name-en": "Functionality",
-      "description-ru": [
-        "Слайдер в каталоге",
-        "Привязка слайдера к чекбоксам выбора продукта",
-        "Табы в описании продукта",
-        "Оформленный заказ выводится в Alert на сайте (для наглядности)"
-      ],
-      "description-en": [
-        "Slider in catalog",
-        "Slider linked to product selection checkboxes",
-        "Tabs in product description",
-        "The completed order is displayed in an Alert on the website (for clarity)"
-      ]
-    },
-    {
-      "name-ru": "Не реализовано",
-      "name-en": "Not Implemented",
-      "description-ru": [
-        "Полноценное оформление заказа с отправкой на сервер",
-        "Адаптивность под разные устройства"
-      ],
-      "description-en": [
-        "Full order processing with server submission",
-        "Adaptability to different devices"
-      ]
-    }
-  ],
+  "date": "08.2023",
+  "complexity": "1",
+  "category": "training",
+  "deploy": "https:\/\/farmer-products-training.netlify.app\/",
+  "title": {
+    "ru": "Farmer Products",
+    "en": "Farmer Products"
+  },
+  "textFirst": {
+    "ru": "Простой проект на ReactJS",
+    "en": "Simple project on ReactJS"
+  },
+  "textSecond": {
+    "ru": "Четвертый учебный проект, разработан в рамках курса JavaScript-разработчик от HTML Academy. Проект на изучение возможностей и синтаксиса библиотеки ReactJS.",
+    "en": "The fourth training project was developed as part of the JavaScript Developer course from the HTML Academy. A project to explore the capabilities and syntax of the ReactJS."
+  },
+  "functionality": {
+    "ru": [
+      "Слайдер в каталоге",
+      "Привязка слайдера к чекбоксам выбора продукта",
+      "Табы в описании продукта",
+      "Оформленный заказ выводится в Alert на сайте (для наглядности)"
+    ],
+    "en": [
+      "Slider in catalog",
+      "Slider linked to product selection checkboxes",
+      "Tabs in product description",
+      "The completed order is displayed in an Alert on the website (for clarity)"
+    ]
+  },
   "technologies": [
-    {
-      "name": "React",
-      "icon": "icon-react",
-      "link": "https://react.dev/"
-    },
-    {
-      "name": "CSS",
-      "icon": "icon-css",
-      "link": "https://www.w3.org/Style/CSS/"
-    },
-    {
-      "name": "JavaScript",
-      "icon": "icon-js",
-      "link": "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
-    }
-  ]
+    "react",
+    "css",
+    "javascript"
+  ],
+  "pages": {
+    "ru": [
+      "Главная",
+      "Каталог"
+    ],
+    "en": [
+      "Main",
+      "Catalog"
+    ]
+  },
+  "notImplemented": {
+    "ru": [
+      "Полноценное оформление заказа с отправкой на сервер",
+      "Адаптивность под разные устройства"
+    ],
+    "en": [
+      "Full order processing with server submission",
+      "Adaptability to different devices"
+    ]
+  }
 }
