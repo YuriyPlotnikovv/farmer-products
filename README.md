@@ -6,6 +6,6 @@
 * React Hooks, React Router
 * сборка через CRA
 ---
-Деплой проекта: https://farmer-products-training.netlify.app/
+Деплой проекта: https://farmer-products-training.yp-projects.ru/
 ---
 Четвертый учебный проект в рамках курса Frontend-разработчик от HTML Academy
